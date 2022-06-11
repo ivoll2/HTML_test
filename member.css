@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+	font-family: '';
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+
+.main {
+	style:flex;
+	height:450px;
+  padding: 100px 80px;
+  
+}
+
+.mainitem{
+
+	float:left;
+	width:300px;
+	height:450px;
+}
+
+
+
+
+
+.footer{
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+
+
+

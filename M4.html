@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="member.css">
+
+</head>
+<body>
+
+	<div class="header">
+		<div class="header-logo">HomePage</div>
+		<div class="header-list">
+			<ul>
+          	<li><a href="Profile.html">profile</a></li>
+          	<li><a href="Introduction.html">member</a></li>
+          	<li><a href="Secret.html">secret?</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="mainitem">
+		<h1>Secret</h1>
+				<form>
+					<p>
+						Congratulations,
+						<output id="guest">???</output>
+						!
+					</p>
+					<p>You find secret page!</p>
+					<input type="text" name="g_name" placeholder="What's your name?" />
+					<input type="button" value="go" onclick="change(g_name)" />
+				</form>
+		</div>
+		
+
+	</div>
+
+	
+	<div class="footer"></div>
+
+
+
+
+
+
+</body>
+
+
+
+
+<script>
+	function change(ctrl) {
+		var g = document.getElementById('guest');
+		g.value = ctrl.value;
+	}
+</script>
+
+
+
+
+
+
+</html>
